@@ -2,7 +2,7 @@
 title: Nikola Andrić
 description: 'Business Card Page'
 url: 'http://thomas.zuehlke.family'
-baseurl: 'Nikola_Andric_Website'
+baseurl: '/Nikola_Andric_Website/'
 profilepic: '/images/NikolaAndro.jpg'
 bkimage: '/images/bk1.jpg'
 google_analytics: UA-XXXXXX-X
