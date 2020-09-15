@@ -13,7 +13,7 @@
           <h1 class="panel-cover__title panel-title">{{ site.title }}</h1>
         </a>
         <hr class="panel-cover__divider">
-        <p class="panel-cover__description">Working at <a href="https://www.arvato-systems.de">Arvato Systems</a> as developer and architect for Azure <i class="fas fa-cloud"></i>.</p>
+        <p class="panel-cover__description">Student at <a href="https://www.mst.edu/">Missouri University of Science &amp; Technology</a> and working at <a href="https://sid-nadendla.github.io/index.html">Missouri S&amp;T CPHS (Cyber Physical Human Systems) lab</a> as assistant.</p>
         <hr class="panel-cover__divider panel-cover__divider--secondary">
 
         <div class="navigation-wrapper">
@@ -23,14 +23,14 @@
 
             {% if site.author.twitter_username %}
               <!-- Twitter -->
-              <li class="navigation__item">
-                <a href="http://twitter.com/{{ site.author.twitter_username }}" title="@{{ site.author.twitter_username }} on Twitter" target="_blank">
+        <!--      <li class="navigation__item">
+                <a href="http://twitter.com/{{ site.author.twitter_username }}" title="@{{ site.author.twitter_username }} on Twitter" target="_blank"> -->
                   <!--<i class="icon icon-social-twitter"></i>-->
-                  <i class="fab fa-twitter fa-lg"></i>
+       <!--          <i class="fab fa-twitter fa-lg"></i>
                   <span class="label">Twitter</span>
                 </a>
-              </li>
-            {% endif %}
+              </li> 
+            {% endif %} -->
 
             {% if site.author.facebook_username %}
               <!-- Facebook -->
@@ -46,7 +46,7 @@
               <!-- LinkedIn -->
               <li class="navigation__item">
                 <a href="https://www.linkedin.com/in/{{ site.author.linkedin_username }}" title="{{ site.author.linkedin_username }} on LinkedIn" target="_blank">
-                  <!--<i class="icon icon-social-linkedin"></i>-->
+                  <i class="icon icon-social-linkedin"></i>
                   <i class="fab fa-linkedin fa-lg"></i>
                   <span class="label">LinkedIn</span>
                 </a>
@@ -57,29 +57,29 @@
               <!-- GitHub -->
               <li class="navigation__item">
                 <a href="https://www.github.com/{{ site.author.github_username }}" title="{{ site.author.github_username }} on GitHub" target="_blank">
-                  <!--<i class="icon icon-social-github"></i>-->
+                  <i class="icon icon-social-github"></i>
                   <i class="fab fa-github fa-lg"></i>
                   <span class="label">GitHub</span>
                 </a>
               </li>
             {% endif %}
 
-            {% if site.author.meetup_name %}
+       <!--     {% if site.author.meetup_name %}
             <!-- Meetup -->
             <li class="navigation__item">
-              <a href="https://www.meetup.com/{{ site.author.meetup_name }}" title="Meetup {{ site.author.meetup_name }}" target="_blank">
+              <a href="https://www.meetup.com/{{ site.author.meetup_name }}" title="Meetup {{ site.author.meetup_name }}" target="_blank"> -->
                 <!--<div style="font-size: 1.4rem;"><i class="fab fa-meetup fa-lg"></i></div>-->
-                <i class="fab fa-meetup fa-lg"></i>
+     <!--           <i class="fab fa-meetup fa-lg"></i>
                 <span class="label">Meetup</span>
               </a>
-            </li>
+            </li> -->
             {% endif %}
 
             {% if site.author.email %}
               <!-- Email -->
               <li class="navigation__item">
                 <a href="mailto:{{ site.author.email }}" title="Email {{ site.author.email }}" target="_blank">
-                  <!--<i class="icon icon-mail"></i>-->
+                  <i class="icon icon-mail"></i>
                   <i class="fas fa-envelope fa-lg"></i>
                   <span class="label">Email</span>
                 </a>
@@ -88,8 +88,8 @@
 
             </ul>
           </nav>
-          
-          <!--<nav class="cover-navigation cover-navigation--primary">-->
+         
+          <nav class="cover-navigation cover-navigation--primary">
           <nav class="cover-navigation navigation--social">
             <ul class="navigation">
               <li class="navigation__item"><a href="https://www.thomas-zuehlke.de" title="link to Blog"><i class="fas fa-link fa-lg"></i>&nbsp;Blog</a></li>
