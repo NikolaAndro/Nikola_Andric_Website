@@ -2,16 +2,16 @@
 title: Nikola Andrić
 description: 'Business Card Page'
 url: 'http://thomas.zuehlke.family'
-baseurl: '/Nikola_Andric_Website/'
+baseurl: '/Nikola_Andric_Website'
 profilepic: '/images/NikolaAndro.jpg'
-bkimage: '/images/bk1.jpg'
+bkimage: '/images/bk5.jpg'
 google_analytics: UA-XXXXXX-X
 font_awesome: 'XXXXXXXXXX.js'
 
 author:
   name: 'Nikola Andrić'
   email: dzonikika@yahoo.com
-  twitter_username: thomzuehlke
+#  twitter_username: thomzuehlke
 #  facebook_username: joshgerdes
   github_username:  NikolaAndro
   linkedin_username:  nikola-andrić-128597179
